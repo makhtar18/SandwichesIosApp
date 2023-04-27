@@ -14,6 +14,9 @@
 		C8A59F1F29F9BB2700C0B541 /* SandwichesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F1E29F9BB2700C0B541 /* SandwichesTests.swift */; };
 		C8A59F2929F9BB2700C0B541 /* SandwichesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F2829F9BB2700C0B541 /* SandwichesUITests.swift */; };
 		C8A59F2B29F9BB2700C0B541 /* SandwichesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F2A29F9BB2700C0B541 /* SandwichesUITestsLaunchTests.swift */; };
+		C8A59F3829F9BFB500C0B541 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F3729F9BFB500C0B541 /* Sandwich.swift */; };
+		C8A59F3A29F9D0A200C0B541 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F3929F9D0A200C0B541 /* SandwichDetail.swift */; };
+		C8A59F3C29F9E3B300C0B541 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A59F3B29F9E3B300C0B541 /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		C8A59F2429F9BB2700C0B541 /* SandwichesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandwichesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A59F2829F9BB2700C0B541 /* SandwichesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesUITests.swift; sourceTree = "<group>"; };
 		C8A59F2A29F9BB2700C0B541 /* SandwichesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8A59F3729F9BFB500C0B541 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		C8A59F3929F9D0A200C0B541 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		C8A59F3B29F9E3B300C0B541 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 			children = (
 				C8A59F0C29F9BB2600C0B541 /* SandwichesApp.swift */,
 				C8A59F0E29F9BB2600C0B541 /* ContentView.swift */,
+				C8A59F3929F9D0A200C0B541 /* SandwichDetail.swift */,
+				C8A59F3729F9BFB500C0B541 /* Sandwich.swift */,
 				C8A59F1029F9BB2700C0B541 /* Assets.xcassets */,
 				C8A59F1229F9BB2700C0B541 /* Sandwiches.entitlements */,
 				C8A59F1329F9BB2700C0B541 /* Preview Content */,
+				C8A59F3B29F9E3B300C0B541 /* SandwichStore.swift */,
 			);
 			path = Sandwiches;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A59F3C29F9E3B300C0B541 /* SandwichStore.swift in Sources */,
 				C8A59F0F29F9BB2600C0B541 /* ContentView.swift in Sources */,
 				C8A59F0D29F9BB2600C0B541 /* SandwichesApp.swift in Sources */,
+				C8A59F3829F9BFB500C0B541 /* Sandwich.swift in Sources */,
+				C8A59F3A29F9D0A200C0B541 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
